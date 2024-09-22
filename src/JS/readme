@@ -1,0 +1,67 @@
+# 🐱‍👤 JavaScript's Jira Journey 🐱‍👤
+
+Welcome to the JavaScript realm of the Metrics-from-JIRA project! Here, we wield the power of JavaScript and Node.js to extract valuable insights from Jira and seamlessly integrate them into your Google Sheets. ✨
+
+### What it Does ✨
+
+* Summons data from Jira using the nimble 'jira-client' library. 🪄
+* Transforms raw data into insightful metrics with JavaScript's agile prowess. ✨
+* Wields the Google Sheets API to gracefully update your spreadsheet. 📊
+* Banishes any pesky formatting issues (like strikethroughs) with a swift ninja move. 🧹
+
+### Prerequisites 🛠️
+
+* Node.js and npm: Make sure you have Node.js and npm installed on your machine. 🐱‍👤
+* Google APIs Client Library for Node.js: Install this library to interact with Google Sheets. 📦
+* Jira Client for Node.js: Install this library to communicate with the Jira API. 📦
+
+### How to Embark on Your Quest 🗺️
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://your-repository-url.git
+   ```
+
+2. Navigate to the JavaScript realm:
+
+   ```bash
+   cd Metrics-from-JIRA/javascript
+   ```
+
+3. Gather your magical artifacts:
+
+   * Jira API credentials: Your Jira username and API token. 🤫
+   * Google Sheets API credentials: Set up OAuth2 and obtain the necessary client ID and secret. 🗝️
+   * Project IDs and Labels: Identify the Jira filters and labels you want to target. 🏷️
+   * Spreadsheet URL: The URL of your Google Sheet. 🔗
+
+4. Install the required dependencies:
+
+   ```bash
+   npm install
+   ```
+
+5. Configure the incantations:
+
+   * Open the `copying_from_JIRA.js` file (or your equivalent JavaScript filename).
+   * Replace the placeholders with your actual Jira and Google Sheets credentials, project IDs, labels, and spreadsheet URL. 📝
+
+6. Run the spell:
+
+   ```bash
+   node copying_from_JIRA.js
+   ```
+
+Behold the Magic! ✨
+
+Once the spell is cast, your Google Sheet will be updated with the latest Jira metrics, beautifully formatted and ready for your perusal. 📊
+
+### Disclaimer ⚠️
+
+* Even JavaScript ninjas encounter challenges. If you face any issues, consult the documentation or seek help from the developer community. 📜
+* Remember, this is just the beginning of your JavaScript-powered Jira quest. Feel free to customize and enhance the code to suit your specific needs. 🪄
+* Most importantly, have fun exploring the realm of Jira metrics and automation with the agility of JavaScript! 🎉
+
+✨ Signed by the Guru of Qualitea aka Jessica 🧙🏽‍♀️ 
+
